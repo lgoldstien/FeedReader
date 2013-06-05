@@ -1,0 +1,4 @@
+oml_feed_reader:
+    resource: "@omlFeedReaderBundle/Resources/config/routing.yml"
+    prefix:   /
+
