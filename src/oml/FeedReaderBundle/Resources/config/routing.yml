@@ -1,3 +1,11 @@
 oml_feed_reader_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: omlFeedReaderBundle:Default:index }
+    pattern:  /
+    defaults: { _controller: omlFeedReaderBundle:Public:index }
+
+index:
+    pattern: /
+    defaults: { _controller: omlFeedReaderBundle:Public:index }
+
+about:
+    pattern: /about
+    defaults: { _controller: omlFeedReaderBundle:Public:about }
